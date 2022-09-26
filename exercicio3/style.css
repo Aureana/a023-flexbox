@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0;
 }
+body{
+  padding-top: 250px;
+  background-color: black;
+}
 
 main{
   display: flex;
@@ -10,6 +14,7 @@ main{
   width: 800px;
   margin: 0 auto;
   background-color: orange;
+  /* flex-direction:row;  */
 }
 
 section{
@@ -23,16 +28,21 @@ section{
 }
 
 #section-1{
+ 
 }
 
 #section-2{
+  flex-grow: 1;
 }
 
 #section-3{
+  flex-grow: 2;
 }
 
 #section-4{
+  flex-basis: 200px;
 }
 
 #section-5{
+  order: -1;
 }
